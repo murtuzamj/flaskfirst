@@ -8,5 +8,3 @@ def hello():
     #mystockinfo = yf.Ticker(stockname)
     #return mystockinfo.info
 
-if __name__ == "__main__":
-    app.run()
