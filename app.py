@@ -2,7 +2,7 @@ from flask import Flask
 import yfinance as yf
 app = Flask(__name__)
 
-@app.route("/")
+@app.route("/stockinfo")
 def hello():
     return "hello"
     #mystockinfo = yf.Ticker(stockname)
