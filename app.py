@@ -6,4 +6,3 @@ app = Flask(__name__)
 def hello(stockname):
     mystockinfo = yf.Ticker(stockname)
     return mystockinfo.info
-
